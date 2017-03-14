@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: TI-SensorTag-IoT-Demo
+  host: TI-SensorTag-IoT-Demo
+  disk_quota: 1024M
+  services:
+  - TI-SensorTag-IoT-Demo-cloudantNoSQLDB
+  - TI-SensorTag-IoT-Demo-iotf-service
